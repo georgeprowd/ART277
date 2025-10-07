@@ -1,2 +1,98 @@
 # ART277
-## Description  This project is my Home Exercise 1 for ART277. It features a personal webpage built using HTML and inline CSS. The page includes my name, favorite color, hobbies, and a profile card with a fun fact. It demonstrates basic web structure and styling techniques.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Jesse Curley's personal HTML exercise page.">
+  <meta name="author" content="Jesse Curley">
+  <title>Home Exercise 1</title>
+</head>
+<body style="font-family:Verdana, sans-serif; background-color:#f0f8ff; color:#333; padding:20px;">
+
+  <!-- Jesse Curley's HTML Exercise Page -->
+
+  <h1 style="color:blue;">Welcome to Jesse Curley's Web Page</h1>
+
+  <!-- About Me Section -->
+  <h2 id="about" style="color:#4682b4;">About Me</h2>
+  <p>
+    My name is <span style="color:blue; font-weight:bold;">Jesse Curley</span>. I am a student passionate about web development and digital creativity.
+  </p>
+  <p>
+    I enjoy learning how websites work and how to make them visually appealing and user-friendly.
+  </p>
+  <p>
+    My favorite color is blue—it represents calm, creativity, and clarity.
+  </p>
+
+  <hr>
+
+  <!-- Favorites Section -->
+  <h2 style="color:#1e90ff;">My Favorites</h2>
+  <ul>
+    <li>Color: Blue</li>
+    <li>Food: Pizza</li>
+    <li>Movie: The Matrix</li>
+    <li>Book: The Great Gatsby</li>
+  </ul>
+
+  <!-- Quick Overview -->
+  <h2 style="color:#2e8b57;">Quick Overview</h2>
+  <p>
+    I enjoy learning about web development and creating websites. I also like playing video games and watching movies in my free time.
+  </p>
+
+  <!-- Contact Info -->
+  <h2 style="color:#b22222;">Contact Information</h2>
+  <p>You can reach me at <a href="mailto:jessecurley@email.com">jessecurley@email.com</a>.</p>
+
+  <hr>
+
+  <!-- Profile Card -->
+  <div style="border:1px solid #ccc; padding:15px; background-color:#e6f2ff; width:300px;">
+    <h3 style="margin-top:0;">Profile Card</h3>
+    <p><strong>Name:</strong> Jesse Curley</p>
+    <p><strong>Bio:</strong> A passionate learner with a love for design and digital storytelling.</p>
+    <p><strong>Fun Fact:</strong> I once painted an entire mural using only shades of blue!</p>
+  </div>
+
+  <br>
+
+  <!-- Hobbies Section -->
+  <h3 id="hobbies">My Hobbies</h3>
+  <p>
+    Outside of coding, I stay active through football, gym workouts, and swimming. These keep me energized and balanced.
+  </p>
+  <ul>
+    <li>🏈 Playing football with friends on weekends</li>
+    <li>🏋️‍♂️ Hitting the gym to stay fit and focused</li>
+    <li>🏊‍♂️ Swimming to relax and recharge</li>
+  </ul>
+
+  <!-- Ordered List -->
+  <h3>Steps to Build a Web Page</h3>
+  <ol>
+    <li>Start with a DOCTYPE declaration</li>
+    <li>Structure with HTML tags</li>
+    <li>Add content and style</li>
+    <li>Test and refine</li>
+  </ol>
+
+  <!-- Description List -->
+  <h3 id="glossary">Glossary</h3>
+  <dl>
+    <dt><strong>HTML</strong></dt>
+    <dd>The language used to structure content on the web.</dd>
+    <dt><strong>CSS</strong></dt>
+    <dd>Styles the visual presentation of HTML elements.</dd>
+    <dt><strong>JavaScript</strong></dt>
+    <dd>Adds interactivity and dynamic behavior to web pages.</dd>
+  </dl>
+
+  <!-- Footer -->
+  <footer style="margin-top:40px; padding:10px; background-color:#dbeeff; text-align:center;">
+    <p>&copy; 2025 Jesse Curley. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
